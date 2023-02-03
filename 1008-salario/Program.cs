@@ -6,4 +6,3 @@ double salario = horasTrabalhadas * valorHora;
 
 Console.WriteLine($"NUMBER = {numeroFuncionario}");
 Console.WriteLine($"SALARY = U$ {salario:F2}");
-
