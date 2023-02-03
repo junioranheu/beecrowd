@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1006-media-2", "1006-media-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1007-diferenca", "1007-diferenca\1007-diferenca.csproj", "{BE1057BA-36E9-40C1-9D35-0194C1E4A208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1008-salario", "1008-salario\1008-salario.csproj", "{F26FF386-8A86-4F8C-BB6C-0B8E57CAAAE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{BE1057BA-36E9-40C1-9D35-0194C1E4A208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE1057BA-36E9-40C1-9D35-0194C1E4A208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE1057BA-36E9-40C1-9D35-0194C1E4A208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26FF386-8A86-4F8C-BB6C-0B8E57CAAAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26FF386-8A86-4F8C-BB6C-0B8E57CAAAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26FF386-8A86-4F8C-BB6C-0B8E57CAAAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26FF386-8A86-4F8C-BB6C-0B8E57CAAAE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
