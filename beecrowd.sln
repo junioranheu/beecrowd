@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1002-area-do-circulo", "100
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1003-soma-simples", "1003-soma-simples\1003-soma-simples.csproj", "{02CAA1B4-4336-4BBA-9BB7-6BFF419635A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1004-produtos-simples", "1004-produtos-simples\1004-produtos-simples.csproj", "{56460286-7916-4E74-9D99-D71EEFCD9F72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{02CAA1B4-4336-4BBA-9BB7-6BFF419635A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02CAA1B4-4336-4BBA-9BB7-6BFF419635A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02CAA1B4-4336-4BBA-9BB7-6BFF419635A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56460286-7916-4E74-9D99-D71EEFCD9F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56460286-7916-4E74-9D99-D71EEFCD9F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56460286-7916-4E74-9D99-D71EEFCD9F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56460286-7916-4E74-9D99-D71EEFCD9F72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
