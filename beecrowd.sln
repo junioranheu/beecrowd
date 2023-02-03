@@ -7,19 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1001-extremamente-basico", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1002-area-do-circulo", "1002-area-do-circulo\1002-area-do-circulo.csproj", "{184F2669-41B3-4687-96C3-E69E69E5A3D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1003-soma-simples", "1003-soma-simples\1003-soma-simples.csproj", "{02CAA1B4-4336-4BBA-9BB7-6BFF419635A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1003-soma-simples", "1003-soma-simples\1003-soma-simples.csproj", "{02CAA1B4-4336-4BBA-9BB7-6BFF419635A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1004-produtos-simples", "1004-produtos-simples\1004-produtos-simples.csproj", "{56460286-7916-4E74-9D99-D71EEFCD9F72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1004-produtos-simples", "1004-produtos-simples\1004-produtos-simples.csproj", "{56460286-7916-4E74-9D99-D71EEFCD9F72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1005-media-1", "1005-media-1\1005-media-1.csproj", "{D38575A5-5886-408F-91E4-2255DAE78ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1005-media-1", "1005-media-1\1005-media-1.csproj", "{D38575A5-5886-408F-91E4-2255DAE78ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1006-media-2", "1006-media-2\1006-media-2.csproj", "{179C0EC0-4D22-4E3B-A58D-E4681ECE24F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1006-media-2", "1006-media-2\1006-media-2.csproj", "{179C0EC0-4D22-4E3B-A58D-E4681ECE24F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1007-diferenca", "1007-diferenca\1007-diferenca.csproj", "{BE1057BA-36E9-40C1-9D35-0194C1E4A208}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1007-diferenca", "1007-diferenca\1007-diferenca.csproj", "{BE1057BA-36E9-40C1-9D35-0194C1E4A208}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1008-salario", "1008-salario\1008-salario.csproj", "{F26FF386-8A86-4F8C-BB6C-0B8E57CAAAE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1008-salario", "1008-salario\1008-salario.csproj", "{F26FF386-8A86-4F8C-BB6C-0B8E57CAAAE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1009-salario-com-bonus", "1009-salario-com-bonus\1009-salario-com-bonus.csproj", "{9AA40E58-2182-46E4-9D64-7DDC51B7E229}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1009-salario-com-bonus", "1009-salario-com-bonus\1009-salario-com-bonus.csproj", "{9AA40E58-2182-46E4-9D64-7DDC51B7E229}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "resolvidos", "resolvidos", "{0B97082A-06B2-468C-9037-CADC43B08057}"
 EndProject
@@ -29,35 +29,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-medio", "2-medio", "{E503
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-dificil", "3-dificil", "{5B7E0409-DB85-46BD-802F-DED5D952D216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1010-calculo-simples", "1010-calculo-simples\1010-calculo-simples.csproj", "{DD54E168-1CD2-49F7-B39B-68DDFC03A2A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1010-calculo-simples", "1010-calculo-simples\1010-calculo-simples.csproj", "{DD54E168-1CD2-49F7-B39B-68DDFC03A2A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1011-esfera", "1011-esfera\1011-esfera.csproj", "{6941B739-7711-4469-8E7D-B8CAD550783F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1011-esfera", "1011-esfera\1011-esfera.csproj", "{6941B739-7711-4469-8E7D-B8CAD550783F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1012-area", "1012-area\1012-area.csproj", "{41416D0D-5988-444D-A0C6-2295B557ED0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1012-area", "1012-area\1012-area.csproj", "{41416D0D-5988-444D-A0C6-2295B557ED0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1013-o-maior", "1013-o-maior\1013-o-maior.csproj", "{7564FB3F-FC87-4137-83AF-EFE68E495766}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1013-o-maior", "1013-o-maior\1013-o-maior.csproj", "{7564FB3F-FC87-4137-83AF-EFE68E495766}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1014-consumo", "1014-consumo\1014-consumo.csproj", "{28874868-212C-4C63-925F-642873E292FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1014-consumo", "1014-consumo\1014-consumo.csproj", "{28874868-212C-4C63-925F-642873E292FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1015-distancia-entre-dois-pontos", "1015-distancia-entre-dois-pontos\1015-distancia-entre-dois-pontos.csproj", "{C438DFEE-BC7C-4083-8E32-03C5C6AEA3A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1015-distancia-entre-dois-pontos", "1015-distancia-entre-dois-pontos\1015-distancia-entre-dois-pontos.csproj", "{C438DFEE-BC7C-4083-8E32-03C5C6AEA3A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1016-distancia", "1016-distancia\1016-distancia.csproj", "{53C0EF1F-9658-4CB5-BF39-0F381B13F5E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1016-distancia", "1016-distancia\1016-distancia.csproj", "{53C0EF1F-9658-4CB5-BF39-0F381B13F5E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1017-gasto-de-combustivel", "1017-gasto-de-combustivel\1017-gasto-de-combustivel.csproj", "{4A74C32E-0D79-4451-A840-C1A8E2BBD1B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1017-gasto-de-combustivel", "1017-gasto-de-combustivel\1017-gasto-de-combustivel.csproj", "{4A74C32E-0D79-4451-A840-C1A8E2BBD1B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1018-cedulas", "1018-cedulas\1018-cedulas.csproj", "{36A18B9E-BBED-443F-AC81-44360BA7B375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1018-cedulas", "1018-cedulas\1018-cedulas.csproj", "{36A18B9E-BBED-443F-AC81-44360BA7B375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1019-conversao-de-tempo", "1019-conversao-de-tempo\1019-conversao-de-tempo.csproj", "{7FF2C5C9-3DD0-4251-9265-941E572E35ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1019-conversao-de-tempo", "1019-conversao-de-tempo\1019-conversao-de-tempo.csproj", "{7FF2C5C9-3DD0-4251-9265-941E572E35ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1020-idade-em-dias", "1020-idade-em-dias\1020-idade-em-dias.csproj", "{FF2BBCD6-CA59-431E-8278-CAB541098DCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1020-idade-em-dias", "1020-idade-em-dias\1020-idade-em-dias.csproj", "{FF2BBCD6-CA59-431E-8278-CAB541098DCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1021-notas-e-moedas", "1021-notas-e-moedas\1021-notas-e-moedas.csproj", "{6D117150-737A-4E31-90DB-BF6DF05FB1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1021-notas-e-moedas", "1021-notas-e-moedas\1021-notas-e-moedas.csproj", "{6D117150-737A-4E31-90DB-BF6DF05FB1DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1035-teste-de-selecao-1", "1035-teste-de-selecao-1\1035-teste-de-selecao-1.csproj", "{E0BE0D67-62C3-4060-93DC-A4E95458CBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1035-teste-de-selecao-1", "1035-teste-de-selecao-1\1035-teste-de-selecao-1.csproj", "{E0BE0D67-62C3-4060-93DC-A4E95458CBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1036-formula-de-bhaskara", "1036-formula-de-bhaskara\1036-formula-de-bhaskara.csproj", "{F6BECA05-19AA-4811-B23F-277081FE22B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1036-formula-de-bhaskara", "1036-formula-de-bhaskara\1036-formula-de-bhaskara.csproj", "{F6BECA05-19AA-4811-B23F-277081FE22B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1037-intervalo", "1037-intervalo\1037-intervalo.csproj", "{C434F5D2-04A1-4479-ACC5-849BC0EA0535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1037-intervalo", "1037-intervalo\1037-intervalo.csproj", "{C434F5D2-04A1-4479-ACC5-849BC0EA0535}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +181,7 @@ Global
 		{DD54E168-1CD2-49F7-B39B-68DDFC03A2A9} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{6941B739-7711-4469-8E7D-B8CAD550783F} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{41416D0D-5988-444D-A0C6-2295B557ED0D} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
+		{7564FB3F-FC87-4137-83AF-EFE68E495766} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D57DF1A-BF39-4597-A717-E3C7B88B8691}
