@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1001-extremamente-basico", "1001-extremamente-basico\1001-extremamente-basico.csproj", "{65170B3D-1BB1-456C-B37E-790F1625D9F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1002-area-do-circulo", "1002-area-do-circulo\1002-area-do-circulo.csproj", "{184F2669-41B3-4687-96C3-E69E69E5A3D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{65170B3D-1BB1-456C-B37E-790F1625D9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65170B3D-1BB1-456C-B37E-790F1625D9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65170B3D-1BB1-456C-B37E-790F1625D9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184F2669-41B3-4687-96C3-E69E69E5A3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184F2669-41B3-4687-96C3-E69E69E5A3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184F2669-41B3-4687-96C3-E69E69E5A3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184F2669-41B3-4687-96C3-E69E69E5A3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
