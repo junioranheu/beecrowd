@@ -10,43 +10,46 @@ int nota5 = 0;
 int nota2 = 0;
 int nota1 = 0;
 
-while (valor > 0)
+if (valor >= 100)
 {
-    if (valor >= 100)
-    {
-        nota100 = valor / 100;
-        valor -= nota100 * 100;
-    }
-    else if (valor >= 50)
-    {
-        nota50 = valor / 50;
-        valor -= nota50 * 50;
-    }
-    else if (valor >= 20)
-    {
-        nota20 = valor / 20;
-        valor -= nota20 * 20;
-    }
-    else if (valor >= 10)
-    {
-        nota10 = valor / 10;
-        valor -= nota10 * 10;
-    }
-    else if (valor >= 5)
-    {
-        nota5 = valor / 5;
-        valor -= nota5 * 5;
-    }
-    else if (valor >= 2)
-    {
-        nota2 = valor / 2;
-        valor -= nota2 * 2;
-    }
-    else if (valor >= 1)
-    {
-        nota1 = valor / 1;
-        valor -= nota1 * 1;
-    }
+    nota100 = valor / 100;
+    valor -= nota100 * 100;
+}
+
+if (valor >= 50)
+{
+    nota50 = valor / 50;
+    valor -= nota50 * 50;
+}
+
+if (valor >= 20)
+{
+    nota20 = valor / 20;
+    valor -= nota20 * 20;
+}
+
+if (valor >= 10)
+{
+    nota10 = valor / 10;
+    valor -= nota10 * 10;
+}
+
+if (valor >= 5)
+{
+    nota5 = valor / 5;
+    valor -= nota5 * 5;
+}
+
+if (valor >= 2)
+{
+    nota2 = valor / 2;
+    valor -= nota2 * 2;
+}
+
+if (valor >= 1)
+{
+    nota1 = valor / 1;
+    valor -= nota1 * 1;
 }
 
 Console.WriteLine(valorInicial);
