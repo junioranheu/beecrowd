@@ -74,7 +74,6 @@ if (valor >= 0.05)
 
 if (valor >= 0.01)
 {
-    Console.WriteLine($"0.01: {valor}");
     moeda001 = Math.Truncate(valor / 0.01);
 }
 
