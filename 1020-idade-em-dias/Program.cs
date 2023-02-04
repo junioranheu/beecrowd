@@ -5,9 +5,7 @@ const int ano = 365;
 const int mes = 30;
 const int dia = 1;
 
-int anos = 0;
-int meses = 0;
-int dias = 0;
+int anos = 0, meses = 0, dias = 0;
 
 if (idadeEmDias >= ano)
 {
