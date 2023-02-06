@@ -18,8 +18,20 @@ else if (y == 0 && x != 0)
 }
 else
 {
-    int trunc = (int)Math.Truncate(x);
-    trunc = (trunc < 1) ? 1 : trunc;
-
-    Console.WriteLine($"Q{trunc}");
+    if (x > 0.0 && y > 0.0)
+    {
+        Console.WriteLine("Q1");
+    }
+    if (x < 0.0 && y > 0.0)
+    {
+        Console.WriteLine("Q2");
+    }
+    if (x < 0 && y < 0)
+    {
+        Console.WriteLine("Q3");
+    }
+    if (x > 0 && y < 0)
+    {
+        Console.WriteLine("Q4");
+    }
 }
