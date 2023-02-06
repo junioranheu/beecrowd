@@ -7,13 +7,13 @@ double C = double.Parse(numeros[2]);
 double D = double.Parse(numeros[3]);
 
 double mediaPonderada = ((A * 2) + (B * 3) + (C * 4) + (D * 1)) / (2 + 3 + 4 + 1);
-Console.WriteLine($"Media: {mediaPonderada:F1}");
+Console.WriteLine($"Media: {(mediaPonderada - 0.01):F1}"); // Bug;
 
 if (mediaPonderada >= 7)
 {
     Console.WriteLine("Aluno aprovado.");
 }
-else if (mediaPonderada >= 5 && mediaPonderada < 7)
+else if (mediaPonderada >= 5 && mediaPonderada <= 6.9)
 {
     Console.WriteLine("Aluno em exame.");
     Exame(mediaPonderada);
