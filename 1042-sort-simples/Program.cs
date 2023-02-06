@@ -1,49 +1,42 @@
 ﻿// https://www.beecrowd.com.br/judge/pt/problems/view/1042
-string[] valores = Console.ReadLine().Split(' ');
-int[] valoresOrdenados = new int[valores.Length];
+string[] lista = Console.ReadLine().Split(' ');
+string[] listaOriginal = DeepCopy(lista);
 
-for (int i = 0; i < valores.Length; i++)
+for (int i = 0; i <= lista.Length - 2; i++)
 {
-    int valorLoopAtual = int.Parse(valores[i]);
-
-    for (int j = 0; j < valoresOrdenados.Length; j++)
+    for (int j = 0; j <= lista.Length - 2; j++)
     {
-        if (valorLoopAtual > valoresOrdenados[j])
+        if (int.Parse(lista[j]) > int.Parse(lista[j + 1]))
         {
-            EmpurrarLista(valoresOrdenados, j);
-
-            valoresOrdenados[j] = valorLoopAtual;
-            break;
+            int temp = int.Parse(lista[j + 1]);
+            lista[j + 1] = lista[j];
+            lista[j] = temp.ToString();
         }
     }
 }
 
-static void EmpurrarLista(int[] lista, int index)
+// Ordem crescente;
+for (int i = 0; i < lista.Length; i++)
 {
-    int[] valoresOrdenadosJar = lista;
+    Console.WriteLine(lista[i]);
+}
 
-    for (int i = index; i < lista.Length; i++)
+Console.WriteLine();
+
+// Ordem original;
+for (int i = 0; i < listaOriginal.Length; i++)
+{
+    Console.WriteLine(listaOriginal[i]);
+}
+
+static string[] DeepCopy(string[] lista)
+{
+    string[] deepCopy = new string[lista.Length];
+
+    for (int i = 0; i < lista.Length; i++)
     {
-        if ((i + 1) < lista.Length)
-        {
-            lista[i + 1] = valoresOrdenadosJar[i];
-        }    
+        deepCopy[i] = lista[i];
     }
+
+    return deepCopy;
 }
-
-//Console.WriteLine(valorSort3);
-//Console.WriteLine(valorSort2);
-//Console.WriteLine(valorSort1);
-//Console.WriteLine();
-
-//for (int i = 0; i < valores.Length; i++)
-//{
-//    Console.WriteLine(valores[i]);
-//}
-
-for (int i = 0; i < valoresOrdenados.Length; i++)
-{
-    Console.WriteLine(valoresOrdenados[i]);
-}
-
-Console.ReadKey();
