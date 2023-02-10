@@ -29,7 +29,7 @@ else
         diferencaHoras = DefinirHorasSeHoraInicioMenorHoraFim(horaInicio, horaFim);
     }
 
-    diferencaHoras = CorrirResultadoHoraUmSeHoraInicioMenorQueHoraFim(diferencaHoras, minutoInicio, minutoFim);
+    diferencaHoras = CorrirHorasSeMinutoInicioMenorQueMinutoFim(diferencaHoras, minutoInicio, minutoFim);
 
     Console.WriteLine($"O JOGO DUROU {diferencaHoras} HORA(S) E {minutoResultado} MINUTO(S)");
 }
@@ -66,14 +66,12 @@ static int DefinirHorasSeHoraInicioMenorHoraFim(int horaInicio, int horaFim)
     return (horaInicio - horaFim) * -1;
 }
 
-static int CorrirResultadoHoraUmSeHoraInicioMenorQueHoraFim(int diferencaHoras, int minutoInicio, int minutoFim)
+static int CorrirHorasSeMinutoInicioMenorQueMinutoFim(int diferencaHoras, int minutoInicio, int minutoFim)
 {
-    int resultFinal = diferencaHoras;
-
     if (minutoInicio != minutoFim)
     {
-        resultFinal = diferencaHoras <= 1 ? 0 : diferencaHoras;
+        return diferencaHoras <= 1 ? 0 : diferencaHoras;
     }
 
-    return resultFinal;
+    return diferencaHoras;
 }
