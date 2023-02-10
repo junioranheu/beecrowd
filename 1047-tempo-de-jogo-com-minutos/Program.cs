@@ -24,7 +24,7 @@ else
     }
     else if (horaInicio < horaFim)
     {
-        diferencaHoras = DefinirHorasSeHoraInicioMenorHoraFim(horaInicio, horaFim);
+        diferencaHoras = DefinirHorasSeHoraInicioMenorHoraFim(horaInicio, horaFim, minutoInicio, minutoFim);
     }
 
     diferencaHoras = CorrirHorasSeMinutoInicioMenorQueMinutoFim(diferencaHoras, minutoInicio, minutoFim);
@@ -55,14 +55,21 @@ static int DefinirHorasSeHoraInicioMaiorHoraFim(int horaInicio, int horaFim, int
     return resultadoFinal;
 }
 
-static int DefinirHorasSeHoraInicioMenorHoraFim(int horaInicio, int horaFim)
+static int DefinirHorasSeHoraInicioMenorHoraFim(int horaInicio, int horaFim, int minutoInicio, int minutoFim)
 {
-    return (horaInicio - horaFim) * -1;
+    int resultadoFinal = (horaInicio - horaFim) * -1;
+
+    if (minutoInicio > minutoFim)
+    {
+        return resultadoFinal - 1;
+    }
+
+    return resultadoFinal;
 }
 
 static int CorrirHorasSeMinutoInicioMenorQueMinutoFim(int diferencaHoras, int minutoInicio, int minutoFim)
 {
-    if (minutoInicio != minutoFim)
+    if (minutoInicio < minutoFim)
     {
         return diferencaHoras <= 1 ? 0 : diferencaHoras;
     }
