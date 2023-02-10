@@ -6,8 +6,6 @@ int minutoInicio = int.Parse(tempos[1]);
 int horaFim = int.Parse(tempos[2]);
 int minutoFim = int.Parse(tempos[3]);
 
-int minutoResultado = DefinirMinutos(minutoInicio, minutoFim);
-
 if ((horaInicio == horaFim) && (minutoInicio == minutoFim))
 {
     Console.WriteLine("O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)");
@@ -18,11 +16,11 @@ else
 
     if (horaInicio == horaFim)
     {
-        diferencaHoras = 23;
+        diferencaHoras = DefinirHorasSeHoraInicioIgualHoraFim(horaInicio, horaFim, minutoInicio, minutoFim);
     }
     else if (horaInicio > horaFim)
     {
-        diferencaHoras = DefinirHorasSeHoraInicioMaiorHoraFim(horaInicio, horaFim);
+        diferencaHoras = DefinirHorasSeHoraInicioMaiorHoraFim(horaInicio, horaFim, minutoInicio, minutoFim);
     }
     else if (horaInicio < horaFim)
     {
@@ -31,34 +29,30 @@ else
 
     diferencaHoras = CorrirHorasSeMinutoInicioMenorQueMinutoFim(diferencaHoras, minutoInicio, minutoFim);
 
-    Console.WriteLine($"O JOGO DUROU {diferencaHoras} HORA(S) E {minutoResultado} MINUTO(S)");
+    Console.WriteLine($"O JOGO DUROU {diferencaHoras} HORA(S) E {DefinirMinutos(minutoInicio, minutoFim)} MINUTO(S)");
 }
 
-static int DefinirMinutos(int minutoInicio, int minutoFim)
+static int DefinirHorasSeHoraInicioIgualHoraFim(int horaInicio, int horaFim, int minutoInicio, int minutoFim)
 {
-    int diferenca = minutoInicio - minutoFim;
-    int minutoResultado = 0;
-
-    if (diferenca == 0)
+    if ((horaInicio >= horaFim) && (minutoInicio >= minutoFim))
     {
-        minutoResultado = 0;
-    }
-    else if (diferenca < 0)
-    {
-        minutoResultado = diferenca * -1;
-    }
-    else
-    {
-        minutoResultado = 60 - diferenca;
+        return 23;
     }
 
-    return minutoResultado;
+    return 0;
 }
 
-static int DefinirHorasSeHoraInicioMaiorHoraFim(int horaInicio, int horaFim)
+static int DefinirHorasSeHoraInicioMaiorHoraFim(int horaInicio, int horaFim, int minutoInicio, int minutoFim)
 {
     int ateMeiaNoite = 24 - horaInicio;
-    return ateMeiaNoite + horaFim;
+    int resultadoFinal = ateMeiaNoite + horaFim;
+
+    if (minutoInicio != minutoFim)
+    {
+        resultadoFinal += -1;
+    }
+
+    return resultadoFinal;
 }
 
 static int DefinirHorasSeHoraInicioMenorHoraFim(int horaInicio, int horaFim)
@@ -74,4 +68,30 @@ static int CorrirHorasSeMinutoInicioMenorQueMinutoFim(int diferencaHoras, int mi
     }
 
     return diferencaHoras;
+}
+
+static int DefinirMinutos(int minutoInicio, int minutoFim)
+{
+    int diferenca = minutoInicio - minutoFim;
+
+    if (diferenca == 0)
+    {
+        return 0;
+    }
+    else if (diferenca < 0)
+    {
+        if (minutoInicio >= minutoFim)
+        {
+            return 60 - (diferenca * -1);
+
+        }
+        else
+        {
+            return diferenca * -1;
+        }
+    }
+    else
+    {
+        return 60 - diferenca;
+    }
 }
