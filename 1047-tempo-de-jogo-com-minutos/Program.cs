@@ -14,11 +14,22 @@ if ((horaInicio == horaFim) && (minutoInicio == minutoFim))
 }
 else
 {
-    int diferencaHoras = horaInicio < horaFim ?
-        (horaInicio - horaFim) * -1 : // Se o "horaInicio" for menor "horaFim", inverta o resultado;
-        (horaInicio - horaFim);
+    int diferencaHoras = 0;
 
-    diferencaHoras = diferencaHoras <= 1 ? 0 : diferencaHoras;
+    if (horaInicio == horaFim)
+    {
+        diferencaHoras = 23;
+    }
+    else if (horaInicio > horaFim)
+    {
+        diferencaHoras = DefinirHorasSeHoraInicioMaiorHoraFim(horaInicio, horaFim);
+    }
+    else if (horaInicio < horaFim)
+    {
+        diferencaHoras = DefinirHorasSeHoraInicioMenorHoraFim(horaInicio, horaFim);
+    }
+
+    diferencaHoras = CorrirResultadoHoraUmSeHoraInicioMenorQueHoraFim(diferencaHoras, minutoInicio, minutoFim);
 
     Console.WriteLine($"O JOGO DUROU {diferencaHoras} HORA(S) E {minutoResultado} MINUTO(S)");
 }
@@ -42,4 +53,27 @@ static int DefinirMinutos(int minutoInicio, int minutoFim)
     }
 
     return minutoResultado;
+}
+
+static int DefinirHorasSeHoraInicioMaiorHoraFim(int horaInicio, int horaFim)
+{
+    int ateMeiaNoite = 24 - horaInicio;
+    return ateMeiaNoite + horaFim;
+}
+
+static int DefinirHorasSeHoraInicioMenorHoraFim(int horaInicio, int horaFim)
+{
+    return (horaInicio - horaFim) * -1;
+}
+
+static int CorrirResultadoHoraUmSeHoraInicioMenorQueHoraFim(int diferencaHoras, int minutoInicio, int minutoFim)
+{
+    int resultFinal = diferencaHoras;
+
+    if (minutoInicio != minutoFim)
+    {
+        resultFinal = diferencaHoras <= 1 ? 0 : diferencaHoras;
+    }
+
+    return resultFinal;
 }
