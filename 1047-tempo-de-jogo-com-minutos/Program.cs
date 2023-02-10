@@ -91,7 +91,6 @@ static int DefinirMinutos(int minutoInicio, int minutoFim)
         if (minutoInicio >= minutoFim)
         {
             return 60 - (diferenca * -1);
-
         }
         else
         {
