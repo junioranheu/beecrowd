@@ -1,4 +1,5 @@
 ﻿// https://www.beecrowd.com.br/judge/pt/problems/view/1047
+// https://www.udebug.com/URI/1047
 string[] tempos = Console.ReadLine().Split(' ');
 
 int horaInicio = int.Parse(tempos[0]);
@@ -47,7 +48,7 @@ static int DefinirHorasSeHoraInicioMaiorHoraFim(int horaInicio, int horaFim, int
     int ateMeiaNoite = 24 - horaInicio;
     int resultadoFinal = ateMeiaNoite + horaFim;
 
-    if (minutoInicio != minutoFim)
+    if (minutoInicio > minutoFim)
     {
         resultadoFinal += -1;
     }
