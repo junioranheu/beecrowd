@@ -161,6 +161,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1143-quadrado-e-ao-cubo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1144-sequencia-logica", "1144-sequencia-logica\1144-sequencia-logica.csproj", "{555D816A-4193-406F-951C-097FA42F48D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1145-sequencia-logica-2", "1145-sequencia-logica-2\1145-sequencia-logica-2.csproj", "{EF726AC0-42A5-4F76-AFC8-8712E82ABDB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -463,6 +465,10 @@ Global
 		{555D816A-4193-406F-951C-097FA42F48D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{555D816A-4193-406F-951C-097FA42F48D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{555D816A-4193-406F-951C-097FA42F48D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF726AC0-42A5-4F76-AFC8-8712E82ABDB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF726AC0-42A5-4F76-AFC8-8712E82ABDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF726AC0-42A5-4F76-AFC8-8712E82ABDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF726AC0-42A5-4F76-AFC8-8712E82ABDB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -545,6 +551,7 @@ Global
 		{3B2F6954-A27B-49A8-A9B3-DE32AC07C0F5} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{21C4425E-A2A4-4C63-A329-AFE8ECF9C318} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{FC47AB53-447D-4890-BF9D-CFB5CA19ADC8} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
+		{555D816A-4193-406F-951C-097FA42F48D4} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D57DF1A-BF39-4597-A717-E3C7B88B8691}
