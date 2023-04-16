@@ -1,5 +1,12 @@
-## 📃 Sobre o repositório
+# Beecrowd (URI Online Judge)
 
 Repositório para guardar as soluções dos problemas/desafios do <a href="https://www.beecrowd.com.br/" target="_blank">beecrowd</a>.
-<br/><br/>Infelizmente não é possível focar em soluções com Clean Code! — Na maioria das vezes, o beecrowd pede uma solução um tanto quanto engessada! 🫡
-<br/></br>Mais uma coisinha... vê se não copia descaradamente as soluções, hein? 🥸
+
+Infelizmente não é possível focar em soluções com Clean Code! — Na maioria das vezes, o beecrowd pede uma solução um tanto quanto engessada! 🫡
+
+Meu <a href="https://www.beecrowd.com.br/judge/pt/users/university/fatec-gta" target="_blank">ranking</a>.
+
+Mais uma coisinha... vê se não copia descaradamente as soluções, hein? 🥸
+
+## Habilidades
+C#, lógica de programação e MUITA paciência.
