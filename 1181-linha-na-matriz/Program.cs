@@ -1,2 +1,1 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// https://www.beecrowd.com.br/judge/pt/problems/view/1181
