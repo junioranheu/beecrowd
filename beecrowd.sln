@@ -233,7 +233,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1858-a-resposta-de-theon", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1864-nossos-dias-nunca-voltarao", "1864-nossos-dias-nunca-voltarao\1864-nossos-dias-nunca-voltarao.csproj", "{AD04C089-082D-4AAA-86AC-CE359E8B0853}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2544-kage-bunshin-no-jutsu", "2544-kage-bunshin-no-jutsu\2544-kage-bunshin-no-jutsu.csproj", "{1C718BAF-5300-4345-9885-C59F00F783A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2544-kage-bunshin-no-jutsu", "2544-kage-bunshin-no-jutsu\2544-kage-bunshin-no-jutsu.csproj", "{1C718BAF-5300-4345-9885-C59F00F783A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -800,6 +800,8 @@ Global
 		{0CA36E92-BE71-4726-BC0F-44E6A4D94873} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{3F56FA96-805F-4197-B9AC-2680E02E2A9A} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{332BDA98-DC87-4F3E-8DC8-F0CBB131A790} = {468F5B98-7DDD-4288-8CF9-68B91A2872CB}
+		{64F9C50A-411C-4F0D-AD27-93D19244F6DD} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
+		{A343B6A1-88B6-47E5-B9DA-384579406174} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{1C718BAF-5300-4345-9885-C59F00F783A1} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
