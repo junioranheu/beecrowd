@@ -247,8 +247,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1929-triangulo", "1929-tria
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1957-converter-para-hexadecimal", "1957-converter-para-hexadecimal\1957-converter-para-hexadecimal.csproj", "{7D86D591-F3CB-4EC6-893F-BFC720A283F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1958-notacao-cientifica", "1958-notacao-cientifica\1958-notacao-cientifica.csproj", "{339A47B2-4BFD-4BAC-97CF-9648EFD519B8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1959-poligonos-regulares-simples", "1959-poligonos-regulares-simples\1959-poligonos-regulares-simples.csproj", "{2E956F86-2128-45F6-A5EE-6E121EDCB91B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1960-numeracao-romana-para-numeros-de-pagina", "1960-numeracao-romana-para-numeros-de-pagina\1960-numeracao-romana-para-numeros-de-pagina.csproj", "{EC11249C-84B8-4BF9-A04A-9955C7E3721C}"
@@ -755,10 +753,6 @@ Global
 		{7D86D591-F3CB-4EC6-893F-BFC720A283F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D86D591-F3CB-4EC6-893F-BFC720A283F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D86D591-F3CB-4EC6-893F-BFC720A283F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{339A47B2-4BFD-4BAC-97CF-9648EFD519B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{339A47B2-4BFD-4BAC-97CF-9648EFD519B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{339A47B2-4BFD-4BAC-97CF-9648EFD519B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{339A47B2-4BFD-4BAC-97CF-9648EFD519B8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E956F86-2128-45F6-A5EE-6E121EDCB91B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E956F86-2128-45F6-A5EE-6E121EDCB91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E956F86-2128-45F6-A5EE-6E121EDCB91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -948,6 +942,7 @@ Global
 		{7933939F-0E25-47EB-AD6A-36F8EA0A4B88} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{3EE0D448-E249-40B8-869F-17F5DBE08988} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{DDCE2DEF-839A-4AE1-9DBE-31A71F50828C} = {5B7E0409-DB85-46BD-802F-DED5D952D216}
+		{7D86D591-F3CB-4EC6-893F-BFC720A283F3} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{26BC5DC0-7389-414C-902C-A82D66BDFA9B} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
