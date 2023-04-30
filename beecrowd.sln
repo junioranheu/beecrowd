@@ -257,8 +257,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1962-ha-muito-muito-tempo-a
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1963-o-filme", "1963-o-filme\1963-o-filme.csproj", "{D3B3360C-DF2B-4F37-B7BD-04D1F71CE4FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1973-jornada-nas-estrelas", "1973-jornada-nas-estrelas\1973-jornada-nas-estrelas.csproj", "{88F2044B-AB46-4E50-A990-E21B1EE7B9D2}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1983-o-escolhido", "1983-o-escolhido\1983-o-escolhido.csproj", "{C21C9624-2E7F-44A2-8CC1-1E314F2DB467}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1984-o-enigma-do-pronalandia", "1984-o-enigma-do-pronalandia\1984-o-enigma-do-pronalandia.csproj", "{126BC4D8-9120-4212-82D9-E8C442356394}"
@@ -773,10 +771,6 @@ Global
 		{D3B3360C-DF2B-4F37-B7BD-04D1F71CE4FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3B3360C-DF2B-4F37-B7BD-04D1F71CE4FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3B3360C-DF2B-4F37-B7BD-04D1F71CE4FE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{88F2044B-AB46-4E50-A990-E21B1EE7B9D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{88F2044B-AB46-4E50-A990-E21B1EE7B9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{88F2044B-AB46-4E50-A990-E21B1EE7B9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{88F2044B-AB46-4E50-A990-E21B1EE7B9D2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C21C9624-2E7F-44A2-8CC1-1E314F2DB467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C21C9624-2E7F-44A2-8CC1-1E314F2DB467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21C9624-2E7F-44A2-8CC1-1E314F2DB467}.Release|Any CPU.ActiveCfg = Release|Any CPU
