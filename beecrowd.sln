@@ -277,23 +277,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2059-impar-par-ou-roubo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1930-tomadas", "1929-tomadas\1930-tomadas.csproj", "{26BC5DC0-7389-414C-902C-A82D66BDFA9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2060-desafio-de-bino", "2060-desafio-de-bino\2060-desafio-de-bino.csproj", "{CCC6F7E3-F9AA-4638-938C-74BCF59C9E74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2060-desafio-de-bino", "2060-desafio-de-bino\2060-desafio-de-bino.csproj", "{CCC6F7E3-F9AA-4638-938C-74BCF59C9E74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2061-as-abas-de-pericles", "2061-as-abas-de-pericles\2061-as-abas-de-pericles.csproj", "{D232215F-54A1-48A2-A20B-B5C0D2572130}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2061-as-abas-de-pericles", "2061-as-abas-de-pericles\2061-as-abas-de-pericles.csproj", "{D232215F-54A1-48A2-A20B-B5C0D2572130}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2126-procurando-subsequencias", "2126-procurando-subsequencias\2126-procurando-subsequencias.csproj", "{3F12A10B-6F55-4638-A8B7-3FFBD3F50F31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2126-procurando-subsequencias", "2126-procurando-subsequencias\2126-procurando-subsequencias.csproj", "{3F12A10B-6F55-4638-A8B7-3FFBD3F50F31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2139-natal-de-pedrinho", "2139-natal-de-pedrinho\2139-natal-de-pedrinho.csproj", "{09FBE947-E3E1-4E44-884F-F5BFD38518E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2139-natal-de-pedrinho", "2139-natal-de-pedrinho\2139-natal-de-pedrinho.csproj", "{09FBE947-E3E1-4E44-884F-F5BFD38518E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2140-duas-notas", "2140-duas-notas\2140-duas-notas.csproj", "{E9660EC4-2DEE-455D-BF8A-82207F4BD451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2140-duas-notas", "2140-duas-notas\2140-duas-notas.csproj", "{E9660EC4-2DEE-455D-BF8A-82207F4BD451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2143-a-volta-do-radar", "2143-a-volta-do-radar\2143-a-volta-do-radar.csproj", "{6DD35F5D-885B-40D2-AEC5-5C094B69D732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2143-a-volta-do-radar", "2143-a-volta-do-radar\2143-a-volta-do-radar.csproj", "{6DD35F5D-885B-40D2-AEC5-5C094B69D732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2146-senha", "2146-senha\2146-senha.csproj", "{FCF3A508-0B30-468F-AFFC-AEABC9F306DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2146-senha", "2146-senha\2146-senha.csproj", "{FCF3A508-0B30-468F-AFFC-AEABC9F306DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2147-galopeira", "2147-galopeira\2147-galopeira.csproj", "{6F7731E7-F7A9-4A87-BADB-E4C04F14B9C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2147-galopeira", "2147-galopeira\2147-galopeira.csproj", "{6F7731E7-F7A9-4A87-BADB-E4C04F14B9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2152-pepe-ja-tirei-a-vela", "2152-pepe-ja-tirei-a-vela\2152-pepe-ja-tirei-a-vela.csproj", "{D1D87BB9-5DB5-4F76-866A-76295ABFA44A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2152-pepe-ja-tirei-a-vela", "2152-pepe-ja-tirei-a-vela\2152-pepe-ja-tirei-a-vela.csproj", "{D1D87BB9-5DB5-4F76-866A-76295ABFA44A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1006,6 +1006,7 @@ Global
 		{FB0AFE29-8E6E-4C3E-8A6C-CE5D8D98F0DE} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{8FD4811A-A7A6-47D1-A26B-DC844F3E8715} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{26BC5DC0-7389-414C-902C-A82D66BDFA9B} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
+		{CCC6F7E3-F9AA-4638-938C-74BCF59C9E74} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1D57DF1A-BF39-4597-A717-E3C7B88B8691}
