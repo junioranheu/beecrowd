@@ -1,2 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+string entrada;
+
+while ((entrada = Console.ReadLine()) != null)
+{
+    int N = int.Parse(entrada);
+    Console.WriteLine(N - 1);
+}
