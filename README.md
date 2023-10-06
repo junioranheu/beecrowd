@@ -6,7 +6,5 @@ Infelizmente não é possível focar em soluções com Clean Code! — Na maiori
 
 Meu <a href="https://www.beecrowd.com.br/judge/pt/users/university/fatec-gta" target="_blank">ranking</a>.
 
-Mais uma coisinha... vê se não copia descaradamente as soluções, hein? 🥸
-
 ## Habilidades
 C#, lógica de programação e MUITA paciência.
