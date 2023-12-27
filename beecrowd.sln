@@ -291,23 +291,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2147-galopeira", "2147-galo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2152-pepe-ja-tirei-a-vela", "2152-pepe-ja-tirei-a-vela\2152-pepe-ja-tirei-a-vela.csproj", "{D1D87BB9-5DB5-4F76-866A-76295ABFA44A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2159-numero-aproximado-de-primos", "2159-numero-aproximado-de-primos\2159-numero-aproximado-de-primos.csproj", "{09813A25-B90F-45FC-9FA9-117B46C5B603}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2159-numero-aproximado-de-primos", "2159-numero-aproximado-de-primos\2159-numero-aproximado-de-primos.csproj", "{09813A25-B90F-45FC-9FA9-117B46C5B603}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2160-nome-do-formulario", "2160-nome-do-formulario\2160-nome-do-formulario.csproj", "{2650D3EC-E9DB-42EC-AE25-950FF4537A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2160-nome-do-formulario", "2160-nome-do-formulario\2160-nome-do-formulario.csproj", "{2650D3EC-E9DB-42EC-AE25-950FF4537A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2161-raiz-quadrada-de-10", "2161-raiz-quadrada-de-10\2161-raiz-quadrada-de-10.csproj", "{CD5DE056-74BD-4849-B911-A008DB400FCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2161-raiz-quadrada-de-10", "2161-raiz-quadrada-de-10\2161-raiz-quadrada-de-10.csproj", "{CD5DE056-74BD-4849-B911-A008DB400FCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2162-picos-e-vales", "2162-picos-e-vales\2162-picos-e-vales.csproj", "{B74444B0-AF69-471C-B966-095C48E5A739}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2162-picos-e-vales", "2162-picos-e-vales\2162-picos-e-vales.csproj", "{B74444B0-AF69-471C-B966-095C48E5A739}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2163-o-despertar-da-forca", "2163-o-despertar-da-forca\2163-o-despertar-da-forca.csproj", "{A2C8652C-A1C7-45A8-9352-223FBBE9E4E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2163-o-despertar-da-forca", "2163-o-despertar-da-forca\2163-o-despertar-da-forca.csproj", "{A2C8652C-A1C7-45A8-9352-223FBBE9E4E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2164-fibonacci-rapido", "2164-fibonacci-rapido\2164-fibonacci-rapido.csproj", "{DD766B22-21E5-4565-A0AB-F72AECE4322C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2164-fibonacci-rapido", "2164-fibonacci-rapido\2164-fibonacci-rapido.csproj", "{DD766B22-21E5-4565-A0AB-F72AECE4322C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2165-tuitando", "2165-tuitando\2165-tuitando.csproj", "{C76BCC4A-8DEE-4C8A-A798-41FEEF9AA768}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2165-tuitando", "2165-tuitando\2165-tuitando.csproj", "{C76BCC4A-8DEE-4C8A-A798-41FEEF9AA768}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2166-raiz-quadrada-de-2", "2166-raiz-quadrada-de-2\2166-raiz-quadrada-de-2.csproj", "{BE41B2F3-7553-46EE-9586-FBF54AE29187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2166-raiz-quadrada-de-2", "2166-raiz-quadrada-de-2\2166-raiz-quadrada-de-2.csproj", "{BE41B2F3-7553-46EE-9586-FBF54AE29187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2167-falha-do-motor", "2167-falha-do-motor\2167-falha-do-motor.csproj", "{7174D8DE-D1F8-469F-9E89-F9A287B80647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2167-falha-do-motor", "2167-falha-do-motor\2167-falha-do-motor.csproj", "{7174D8DE-D1F8-469F-9E89-F9A287B80647}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1051,6 +1051,7 @@ Global
 		{CCC6F7E3-F9AA-4638-938C-74BCF59C9E74} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{D232215F-54A1-48A2-A20B-B5C0D2572130} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{E9660EC4-2DEE-455D-BF8A-82207F4BD451} = {E503796E-887A-4355-B518-1821A84DD15D}
+		{6DD35F5D-885B-40D2-AEC5-5C094B69D732} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 		{FCF3A508-0B30-468F-AFFC-AEABC9F306DC} = {0739063A-FC20-49ED-B750-D95F42BA2CA1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
